@@ -1,6 +1,10 @@
 <template>
-  <div class="modal-overlay bg-black/20 w-full h-screen fixed top-0">
-    <div class="modal bg-white p-5 container mt-[10vh] mx-auto rounded-md">
+  <div
+    class="modal-overlay bg-black/20 w-full h-screen fixed top-0 overflow-y-auto"
+  >
+    <div
+      class="modal bg-white p-5 container lg:mt-[10vh] mt-0 mx-auto rounded-md"
+    >
       <div class="lg:flex grid-cols-1 justify-between border-b pb-5">
         <div class="p-2">
           <h2 class="text-2xl font-bold text-gray-600 tracking-tighter">
